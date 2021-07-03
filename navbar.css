@@ -1,0 +1,36 @@
+.nav {
+    width: 100%;
+    border-bottom: black 5px solid;
+    line-height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-nav {
+    width: 20%;
+    text-align: center;
+    border-right: 5px solid black;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.center-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.right-nav {
+    text-align: center;
+    width: 20%;
+    border-left: 5px solid black;
+ 
+}
+
+.nav-item:hover {
+  color: red;
+}
