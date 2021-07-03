@@ -5,8 +5,9 @@
 }
 
 body {
-  background: white;
-  color: black;
+  background: rgb(54, 54, 54);
+  color: whitesmoke;
+  font-family: sans-serif;
 }
 
 .main-container {
@@ -42,18 +43,20 @@ body {
 }
 
 .sidebar-right-top{
-    height: 25%;
+    height: 75%;
     border-bottom: 5px solid black;
 }
 
 .sidebar-right-bottom {
-    height: 75%;   
+    height: 25%;   
 }
 
 .main {
   width: 60%;
   height: 85vh;
   border-bottom: 5px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
 .video-player {
@@ -65,11 +68,61 @@ body {
 
 .video {
   position: absolute;
-  background: whitesmoke;
-  border: 1px solid pink;
   height: 90%;
   width: 90%;
   top: 4.5%;
   left: 5%;
   border-radius: 10px;
+}
+
+.main-bottom-top {
+  height: 25%;
+  border-bottom: 5px solid black;
+}
+
+.main-bottom-bottom {
+  height: 25%;
+}
+
+.dials-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.dial {
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 50%;
+  padding: 40px;
+}
+
+.loop-machine {
+  display: flex;
+  height: 10px;
+  padding: 20px;
+}
+
+.loop-item {
+  height: 30px;
+  width: 30px;
+  border: 2px solid black;
+}
+
+.blue {
+  background: rgb(82, 82, 211);
+}
+
+.orange {
+  background: rgb(172, 127, 44);
+}
+
+.green {
+  background: rgb(69, 199, 69);
+}
+
+.red {
+  background: rgb(192, 61, 61);
 }
