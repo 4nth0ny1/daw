@@ -44,11 +44,11 @@ body {
 
 .sidebar-right-top {
   height: 75%;
-  border-bottom: 5px solid black;
 }
 
 .sidebar-right-bottom {
   height: 25%;
+  border-top: 5px solid black;
 }
 
 .main {
@@ -75,13 +75,9 @@ body {
   border-radius: 10px;
 }
 
-.main-bottom-top {
-  height: 25%;
-  border-bottom: 5px solid black;
-}
-
 .main-bottom-bottom {
   height: 25%;
+  border-top: 5px solid black;
 }
 
 .dials-container {
@@ -97,6 +93,12 @@ body {
   border: 3px solid black;
   border-radius: 50%;
   padding: 40px;
+}
+
+.main-bottom-top {
+  height: 25%;
+
+  margin: 0 auto;
 }
 
 .loop-machine {
